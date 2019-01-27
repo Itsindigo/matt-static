@@ -1,3 +1,8 @@
 .DS_Store
 .vscode/
 node_modules/
+deploy.txt
+dist/
+tmp/bundle-environment.json
+tmp/client-stats.json
+tmp/

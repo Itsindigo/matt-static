@@ -1,27 +1,12 @@
-import axios from 'axios'
-
 export default {
   getSiteData: () => ({
-    title: 'React Static',
+    title: "M A T T'S - W O R L D",
   }),
-  getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
-    return [
-      {
-        path: '/blog',
-        getData: () => ({
-          posts,
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
-      },
-    ]
-  },
+  getRoutes: async () => [],
+  siteRoot: 'http://assets.matt-static.s3-website-eu-west-1.amazonaws.com',
+  paths: {
+    dist: 'dist',
+    devDist: 'dist-rstatic',
+    public: 'public',
+  }
 }
