@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { withSiteData } from 'react-static';
-import { Section, HostmakerLink } from '../components/shared';
+import { Section, HostmakerLink, Emoji } from '../components/shared';
 import ListTechnologies from '../components/ListTechnologies/ListTechnologies';
 
 const Column = styled.div`
@@ -11,6 +11,11 @@ const Column = styled.div`
 `
 const Row = styled.div`
   width: 100%;
+`
+
+const Caption = styled.p`
+  font-size: 12px;
+  text-align: center;
 `
 
 export default withSiteData(() => (
@@ -25,13 +30,13 @@ export default withSiteData(() => (
           but right now would probably be best described as ... busy.
         </p>
         <p>
-          Interests professionally in the tech industry, disruption / emerging technologies, silicon valley, and the startup scene at large. At the moment particularly attentive to 
-          innovations across E-sports, Direct to Consumer businesses, Decentralised Markets and Brain-Computer interfaces.
+          Professionally centered in the tech industry, with interest in disruptive &amp; emerging technologies, product, and the startup scene at large. At the moment 
+          particularly attentive to innovations across E-sports, Direct to Consumer businesses, Decentralised Markets and Brain-Computer interfaces.
         </p>
         <p>
-          Like most people in their mid-twenties (that I know), I'm transitioning to a phase where partying takes a smaller slice of the pie (relatively, of course.), and what figuring out where I now wish to spend my time.
-          So far that's included lots of outdoorsy-type-things, figuring out how the heck you inject character into a new build flat in London, and endlessly trawling for travel-hacks.
-          I'm also working on my U.G.B.T (Unified Grand Bagel Theory), but that's still W.I.P.
+          Like most people in their mid-twenties (that I know), I'm transitioning to a phase where partying takes a smaller slice of the pie (relatively, of course.), and thus figuring out 
+          where now best to spend my time. So far that's included lots of outdoorsy-type-things, figuring out how the heck you inject character into a new-build London flat, and endlessly 
+          trawling for travel-hacks. I'm also working on my G.U.B.T (Grand Unified Bagel Theory), but for the time being that remains under wraps.
         </p>
       </div>
     </Section>
@@ -69,7 +74,24 @@ export default withSiteData(() => (
       <h1>
         Interest
       </h1>
-      <p />
+      <p>
+        Currently based in Shoreditch, the beating heart of urban culture, so naturally I have a profound interest in edgy-djs, oversized sneakers 
+        and my proximty to Avo Toast at any given spot in the E2 postcode.
+      </p>
+      <p>
+        Fond reader of The Economist, partially because i'm an addict for Trump drama, and also because it's handy for derailing conversations at the pub.
+      </p>
+      <p>
+        Otherwise spending my time @ <a href="http://lonelyplanet.com">Lonely Planet</a> pining for all the trips yet to come.
+      </p>
     </Section>
+    <br />
+    <br />
+    <div>
+      <Caption>
+        I built this site with <a href="https://github.com/nozzle/react-static" alt="react-static" title="React Static">React Static</a>, you can view the 
+        code <a href="https://github.com/itsindigo/matt-static" alt="Github ItsIndigo matt-static" title="Github ItsIndigo matt-static">here!</a> <Emoji name='rocket' />
+      </Caption>
+    </div>
   </div>
 ))
