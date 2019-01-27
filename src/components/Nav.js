@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components';
 import Profile from './Profile';
-import Disclaimer from './Disclaimer';
+import Footer from './Footer';
 
 
 const Nav = styled.nav`
@@ -17,7 +17,7 @@ export default () => (
   <Fragment>
     <Nav>
       <Profile />
-      <Disclaimer />
+      <Footer />
     </Nav>
   </Fragment>
 )
