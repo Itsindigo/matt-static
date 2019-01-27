@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components';
 import Profile from './Profile';
-import Footer from './Footer';
-
 
 const Nav = styled.nav`
   display: table-cell;
@@ -11,13 +9,19 @@ const Nav = styled.nav`
   height: 100%;
   border-right: 3px solid rgb(228, 212, 72);
   position: fixed;
+  @media (max-width:480px) {
+    display: block;
+    width: 100%;
+    position: relative;
+    border-bottom: 3px solid rgb(228, 212, 72);
+    padding-bottom: 10px;
+  }
 `
 
 export default () => (
   <Fragment>
     <Nav>
       <Profile />
-      <Footer />
     </Nav>
   </Fragment>
 )

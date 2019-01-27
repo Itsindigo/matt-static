@@ -1,8 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Emoji } from '../components/shared';
 
 const Div = styled.div`
   text-align: left;
+  @media (max-width:480px) {
+    padding-top: 8px;
+  }
 `
 
 const Disclaimer = styled.span`
@@ -17,6 +21,10 @@ const DisclaimerMessage = styled.span`
 
 export default () => (
   <Div>
-    <Disclaimer>Disclaimer:</Disclaimer> <DisclaimerMessage>Not a CSS guy - please do ignore the great many faux pas I may have made in the styling of this page</DisclaimerMessage>
+    <Disclaimer>Disclaimer: </Disclaimer> 
+    <div>
+      <DisclaimerMessage>Not a CSS guy - please do ignore the great many since I may have committed in the styling of this page </DisclaimerMessage>
+      <Emoji name='joy' />
+    </div>
   </Div>
 )

@@ -2,7 +2,8 @@ import React from 'react';
 
 const emojis = {
   plane: { character: '✈️', label: 'plane'},
-  boulder: {character: '🧗‍♂️', label: 'boulder'}
+  boulder: {character: '🧗‍♂️', label: 'boulder'},
+  joy: {character: '😂', label: 'joy' }
 }
 
 const Emoji = (props) => (

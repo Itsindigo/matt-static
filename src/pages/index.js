@@ -60,7 +60,7 @@ export default withSiteData(() => (
           </p>
           <p>
             If you work in Tech or Product and might be interested in making a move, you should <HostmakerLink href="https://hostmaker.com/gb/careers/" alt="Hostmaker Careers" title="Hostmaker Careers">totally check us out</HostmakerLink>.
-            The engineering culture is strong, their is transparency across the business and salaries, and we have a distributed team all over Europe.
+            The engineering culture is strong, there is transparency across the business and salaries, and we have a distributed team all over Europe.
           </p>
         </Column>
       </Row>
@@ -69,6 +69,7 @@ export default withSiteData(() => (
       <h1>
         Interest
       </h1>
+      <p />
     </Section>
   </div>
 ))
