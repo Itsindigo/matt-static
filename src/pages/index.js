@@ -34,9 +34,9 @@ export default withSiteData(() => (
           particularly attentive to innovations across E-sports, Direct to Consumer businesses, Decentralised Markets and Brain-Computer interfaces.
         </p>
         <p>
-          Like most people in their mid-twenties (that I know), I'm transitioning to a phase where partying takes a smaller slice of the pie (relatively, of course.), and thus figuring out 
-          where now best to spend my time. So far that's included lots of outdoorsy-type-things, figuring out how the heck you inject character into a new-build London flat, and endlessly 
-          trawling for travel-hacks. I'm also working on my G.U.B.T (Grand Unified Bagel Theory), but for the time being that remains under wraps.
+          Currently figuring out what life's all about now that the party party all the time early twenties vibe has passed. So far that's included lots of outdoorsy-type-things, 
+          figuring out how the heck you inject character into a new-build London flat, and endlessly trawling for travel-hacks. 
+          I'm also working on my G.U.B.T (Grand Unified Bagel Theory), but for the time being that remains under wraps.
         </p>
       </div>
     </Section>
