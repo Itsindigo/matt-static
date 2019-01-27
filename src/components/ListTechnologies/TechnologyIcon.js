@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 const Img = styled.img`
-  height: 75px;
-  /* width: 75px; */
+  height: 45px;
 `
 
 const TechnologyIcon = (props) => {
@@ -11,7 +10,12 @@ const TechnologyIcon = (props) => {
     skill
   } = props;
 
-  return <Img src={skill.icon} alt={skill.alt} title={skill.title} />
+  return (
+    <Fragment>
+      <Img src={skill.icon} alt={skill.name} title={skill.name} />
+      <p>{skill.name}</p>
+    </Fragment>
+  )
 
 }
 

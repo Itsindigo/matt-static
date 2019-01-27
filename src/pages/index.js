@@ -1,7 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 import { withSiteData } from 'react-static';
-import { Section } from '../components/shared';
+import { Section, HostmakerLink } from '../components/shared';
 import ListTechnologies from '../components/ListTechnologies/ListTechnologies';
+
+const Column = styled.div`
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+`
+const Row = styled.div`
+  width: 100%;
+`
 
 export default withSiteData(() => (
   <div style={{ textAlign: 'left', paddingLeft: '10px' }}>
@@ -29,14 +39,31 @@ export default withSiteData(() => (
       <h1>
         Experience
       </h1>
-      <div>
-        <p>
-          I've been writing code since August 2015, here are some of the technologies i've used in that time...
-        </p>
-        <div>
+      <Row>
+        <Column>
           <ListTechnologies />
-        </div>
-      </div>
+        </Column>
+        <Column>
+          <p>
+            I've been programming since August 2015, <a href="https://makers.tech/" alt="makers" title="Makers">Makers</a> software development bootcamp is where I got started, and I haven't looked back since.
+          </p>
+          <p>
+            Philosophically driven to write clean code, rapidly iterating through tools and technologies to develop the widest base of experience I can. At the moment particularly 
+            interested in decoupling applications with queues and other messaging systems, and I'm itching to build applications with some sort of event-bus such
+            as <a href="https://kafka.apache.org/" alt="kafka" title="Kafka">Kafka</a> or <a href="https://www.rabbitmq.com/" alt="RabbitMQ" title="Rabbit MQ">RabbitMQ</a>. 
+          </p>
+          <p>
+            Professionally I've worked across a variety of projects, from CMS systems for digital publications, to single page apps for vehicle auctioning software, and portals for online banking.
+          </p>
+          <p>
+            Currently hacking at Hostmaker, a series-B funded home rental management company. We're leveraging the home-sharing market to offer better options for home-owners and institutional investors alike.
+          </p>
+          <p>
+            If you work in Tech or Product and might be interested in making a move, you should <HostmakerLink href="https://hostmaker.com/gb/careers/" alt="Hostmaker Careers" title="Hostmaker Careers">totally check us out</HostmakerLink>.
+            The engineering culture is strong, their is transparency across the business and salaries, and we have a distributed team all over Europe.
+          </p>
+        </Column>
+      </Row>
     </Section>
     <Section>
       <h1>

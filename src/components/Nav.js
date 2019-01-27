@@ -1,28 +1,24 @@
 import React, { Fragment } from 'react'
-import { Link } from '@reach/router'
+import styled from 'styled-components';
 import Profile from './Profile';
+import Disclaimer from './Disclaimer';
 
+
+const Nav = styled.nav`
+  display: table-cell;
+  width: 22%;
+  background: hsl(229, 31%, 11%) repeat-y 50% 0;
+  height: 100%;
+  border-right: 3px solid rgb(228, 212, 72);
+  position: fixed;
+`
 
 export default () => (
   <Fragment>
-    <nav>
-      <div className='nav-content'>
-        <Profile />
-        <div className="nav-links">
-          <ul>
-            <li>
-              <Link to="/" href="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/" href="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/" href="/">Home</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Nav>
+      <Profile />
+      <Disclaimer />
+    </Nav>
   </Fragment>
 )
 

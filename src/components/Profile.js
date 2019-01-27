@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import profilePhoto from '../assets/profile-photo.png';
-import { Emoji } from './shared';
+import { Emoji, HostmakerLink } from './shared';
 
 const Img = styled.img`
   height: 200px;
@@ -16,10 +16,6 @@ const Span = styled.span`
 
 const Div = styled.div`
   padding-bottom: 8px;
-`
-
-const HostmakerLink = styled.a`
-  color: #58c4c6;
 `
 
 const Name = styled.span`

@@ -11,12 +11,13 @@ const Row = styled.div`
 
 const Column = styled.div`
   display: inline-block;
-  padding-right: 100px;
+  padding-right: 60px;
 `
 
 class ListTechnologies extends Component {
-  getTechnologies = () => {
-    const rows = chunk(TechnologiesData, 3);
+  
+  getTechnologies = (type, count) => {
+    const rows = chunk(TechnologiesData[type], count);
     return rows.map((row) => (
       <Row>
         {row.map(value => (
@@ -31,7 +32,10 @@ class ListTechnologies extends Component {
   render() {
     return (
       <Fragment>
-        {this.getTechnologies()}
+        {this.getTechnologies('language', 3)}
+        {this.getTechnologies('framework', 4)}
+        {this.getTechnologies('tool', 3)}
+        {this.getTechnologies('software', 3)}
       </Fragment>
     )
   }
