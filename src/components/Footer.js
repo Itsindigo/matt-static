@@ -9,6 +9,7 @@ const Component = styled.div `
   bottom: 0;
   width: 18%;
   padding-bottom: 12px;
+  padding-left: 10px;
   @media (max-width:480px) {
     background: hsl(229, 31%, 11%) repeat-y 50% 0;
     border-top: 3px solid rgb(228, 212, 72);

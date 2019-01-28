@@ -10,7 +10,7 @@ const Div = styled.div`
 `
 
 const Disclaimer = styled.span`
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 `
 
@@ -23,7 +23,7 @@ export default () => (
   <Div>
     <Disclaimer>Disclaimer: </Disclaimer> 
     <div>
-      <DisclaimerMessage>Not a CSS guy - please do ignore the great many since I may have committed in the styling of this page </DisclaimerMessage>
+      <DisclaimerMessage>Not a CSS guy - please do ignore the great many sins I may have committed in the styling of this page </DisclaimerMessage>
       <Emoji name='joy' />
     </div>
   </Div>

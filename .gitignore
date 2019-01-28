@@ -6,3 +6,4 @@ dist/
 tmp/bundle-environment.json
 tmp/client-stats.json
 tmp/
+dist-rstatic/
