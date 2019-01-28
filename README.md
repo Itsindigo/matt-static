@@ -1,3 +1,3 @@
-# React-Static - Basic Template
+# matt-static
 
-To use this template, run `react-static create` and use the `basic` template.
+Personal site hosted @ https://indigotextureboy.com
