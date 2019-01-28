@@ -64,8 +64,8 @@ export default withSiteData(() => (
             Currently hacking at Hostmaker, a series-B funded home rental management company. We're leveraging the home-sharing market to offer better options for home-owners and institutional investors alike.
           </p>
           <p>
-            If you work in Tech or Product and might be interested in making a move, you should <HostmakerLink href="https://hostmaker.com/gb/careers/" alt="Hostmaker Careers" title="Hostmaker Careers">totally check us out</HostmakerLink>.
-            The engineering culture is strong, there is transparency across the business and salaries, and we have a distributed team all over Europe.
+            If you work in Tech or Product and might be interested in making a move, you should totally <HostmakerLink href="https://hostmaker.com/gb/careers/" alt="Hostmaker Careers" title="Hostmaker Careers">check us out</HostmakerLink>.
+            The engineering culture is strong, there is transparency from management regarding business goals, salaries and career progression opportunities, and we have great remote-working options, with a distributed team spread all over Europe.
           </p>
         </Column>
       </Row>
