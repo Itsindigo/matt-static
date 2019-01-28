@@ -75,8 +75,8 @@ export default withSiteData(() => (
         Interest
       </h1>
       <p>
-        Currently based in Shoreditch, the beating heart of urban culture, so naturally I have a profound interest in edgy-djs, oversized sneakers 
-        and my proximty to Avo Toast at any given spot in the E2 postcode.
+        Currently based in Shoreditch, the beating heart of urban culture, and so naturally I have a profound interest in edgy-djs, oversized sneakers 
+        and my proximty to avo toast at any given spot in the E2 postcode.
       </p>
       <p>
         Fond reader of The Economist, partially because i'm an addict for Trump drama, and also because it's handy for derailing conversations at the pub.
